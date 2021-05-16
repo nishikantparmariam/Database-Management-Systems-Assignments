@@ -1,0 +1,1 @@
+SELECT * FROM products WHERE created_at > '2011-11-11 23:59:59';

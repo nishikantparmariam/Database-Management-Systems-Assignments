@@ -1,0 +1,2 @@
+SELECT * FROM products WHERE created_at >= DATE_SUB(CURRENT_TIMESTAMP(), INTERVAL 10 DAY);
+

@@ -1,0 +1,1 @@
+SELECT * FROM novel_details, products WHERE (novel_details.for_product_id = products.product_id) AND (novel_details.publish_date > '2010-12-31 23:59:59');

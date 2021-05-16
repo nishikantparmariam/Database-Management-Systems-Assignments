@@ -1,0 +1,1 @@
+SELECT *  FROM products WHERE (category = 'electronic') AND ((product_name LIKE '%laptop%') OR (description LIKE '%laptop%')) ORDER BY price ASC;

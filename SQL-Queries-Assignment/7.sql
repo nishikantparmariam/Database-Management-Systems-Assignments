@@ -1,0 +1,1 @@
+SELECT retailer_id, full_name, email FROM retailers WHERE operation_city = 'Ahmedabad';
